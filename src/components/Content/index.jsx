@@ -3,7 +3,6 @@ import { NightModeContext } from "../NightMode";
 
 const Content = () => {
   const { isNightMode } = useContext(NightModeContext); // boolean
-
   return (
     <div className={isNightMode ? "night-mode" : "day-mode"}>
       <h1>Content</h1>
